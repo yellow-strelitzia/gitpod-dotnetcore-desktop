@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full-vnc:latest
 
+USER root
+
 # install custom tools, runtime, etc.
 
 # Install .NET CLI dependencies
